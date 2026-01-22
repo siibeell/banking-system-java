@@ -5,7 +5,7 @@ This project simulates core banking operations such as account management, card 
 
 ---
 
-Features
+##Features
 
 - User registration and login system
 - Account management
@@ -31,23 +31,32 @@ Features
 
 ---
 
-Project Architecture
+## Project Architecture
 
-The project follows a layered architecture structure:
+The project follows a layered architecture design, separating responsibilities clearly across packages.
 
-BankacilikSistemi
-│
-├── model     Core domain classes (Account, Card, Credit, Payment, etc.)
-├── service   Business logic and operations
-└── ui        Swing-based user interface panels
+### Package Structure
 
-- model: Contains all entity and abstract classes using OOP principles
-- service: Handles business rules and application logic
-- ui: Manages user interaction with Java Swing components
+- **model**
+  - Core domain classes and abstractions  
+  - Represents business entities such as accounts, cards, credits, and payments  
+  - Implements object-oriented principles (inheritance, abstraction, polymorphism)
+
+- **service**
+  - Contains business logic and application rules  
+  - Manages operations such as authentication, transactions, card management, and payments  
+  - Acts as a bridge between the UI and the domain model
+
+- **ui**
+  - Java Swing–based user interface  
+  - Manages all screens, panels, and user interactions  
+  - Communicates with service layer to perform operations
+
+This structure improves maintainability, readability, and scalability by enforcing a clear separation of concerns.
 
 ---
 
-Technologies Used
+##Technologies Used
 
 - Java (JDK 11)
 - Java Swing (GUI)
@@ -56,7 +65,7 @@ Technologies Used
 
 ---
 
-Learning Outcomes
+##Learning Outcomes
 
 Through this project, I practiced and strengthened:
 
@@ -68,7 +77,7 @@ Through this project, I practiced and strengthened:
 
 ---
 
-How to Run
+##How to Run
 
 1. Clone the repository:
    git clone https://github.com/siibeell/banking-system-java.git
@@ -77,6 +86,6 @@ How to Run
 
 ---
 
-Notes
+##Notes
 
 This project was developed as part of an Object-Oriented Programming course and focuses on clean code structure and realistic banking scenarios rather than database integration.
