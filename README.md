@@ -5,7 +5,7 @@ This project simulates core banking operations such as account management, card 
 
 ---
 
-##Features
+Features
 
 - User registration and login system
 - Account management
@@ -56,7 +56,7 @@ This structure improves maintainability, readability, and scalability by enforci
 
 ---
 
-##Technologies Used
+Technologies Used
 
 - Java (JDK 11)
 - Java Swing (GUI)
@@ -65,7 +65,7 @@ This structure improves maintainability, readability, and scalability by enforci
 
 ---
 
-##Learning Outcomes
+Learning Outcomes
 
 Through this project, I practiced and strengthened:
 
@@ -77,7 +77,7 @@ Through this project, I practiced and strengthened:
 
 ---
 
-##How to Run
+How to Run
 
 1. Clone the repository:
    git clone https://github.com/siibeell/banking-system-java.git
